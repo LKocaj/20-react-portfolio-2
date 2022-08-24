@@ -1,13 +1,13 @@
 // dependencies
-import "./app.css";
+import "./App.css";
 import React, {useState} from "react";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import PortfolioContainer from "./Components/PortfolioContainer";
-import About from './Components/pages/About';
-import Portfolio from './Components/pages/Portfolio';
-import Contact from './Components/pages/Contact';
-import Resume from './Components/pages/Resume';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import PortfolioContainer from "./components/PortfolioContainer";
+import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
