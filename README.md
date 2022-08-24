@@ -6,7 +6,7 @@
   <p align="center">
     React portfolio: A place to showcase your work
     <br />
-    <a href="link to folio"><strong>View portfolio here!</strong></a>
+    <a href="https://lkocaj.github.io/20-react-portfolio-2/"><strong>View portfolio here!</strong></a>
   </p>
 </div>
 
@@ -137,10 +137,10 @@ Email: Lawrencecaj@gmail.com
 Youtube: https://www.youtube.com/channel/UCT9VNw7nEAY0jqPlHM6zlSw
 <br>
 <br>
-Project Link: https://github.com/LKocaj/20-react-portfolio
+github: https://github.com/LKocaj
 <br>
 <br>
-Heroku: https://lkocaj-react-portfolio.herokuapp.com/ | https://git.heroku.com/lkocaj-react-portfolio.git
+Project Link: https://lkocaj.github.io/20-react-portfolio-2/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
