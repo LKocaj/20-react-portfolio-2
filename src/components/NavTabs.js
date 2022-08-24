@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}   // depends which page youre on will show active or not
         >
-          About me!
+          About
         </a>
       </li>
       <li className="nav-item">
