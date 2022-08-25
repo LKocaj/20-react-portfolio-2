@@ -30,6 +30,7 @@
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#learn-more">Learn more on React</a></li>
   </ol>
 
 
