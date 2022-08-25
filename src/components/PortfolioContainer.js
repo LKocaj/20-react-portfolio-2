@@ -10,7 +10,7 @@ export default function PortfolioContainer({renderPage}) {
 
 
   return (
-    <div className="vh-100" style={styles.pageHeightStyle}>
+    <div class="vh-100" style={styles.pageHeightStyle}>
       {renderPage()}
     </div>
   );

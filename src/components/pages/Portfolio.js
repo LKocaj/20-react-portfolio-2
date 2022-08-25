@@ -5,7 +5,7 @@ import Cards from '../Cards'
 const projects = [
   {
     id: 1,
-    name: "",
+    name: "Run Buddy",
     description: "",
     subtitle: "",
     deployedLink: "",
@@ -56,7 +56,34 @@ const projects = [
     deployedLink: "",
     repoLink: "",
     image: ""
-  }
+  },
+  {
+    id: 7,
+    name: "",
+    description: "",
+    subtitle: "",
+    deployedLink: "",
+    repoLink: "",
+    image: ""
+  },
+  {
+    id: 8,
+    name: "",
+    description: "",
+    subtitle: "",
+    deployedLink: "",
+    repoLink: "",
+    image: ""
+  },
+  {
+    id: 9,
+    name: "",
+    description: "",
+    subtitle: "",
+    deployedLink: "",
+    repoLink: "",
+    image: ""
+  },
 ];
 
 export default function Portfolio() {

@@ -2,8 +2,8 @@ import React from 'react';
 // reach out
 export default function Contact() {
   return (
-    <div className = "w-50 mx-auto">
-      <h1 className ="pb-4 pt-2">Contact Me</h1>
+    <div class = "w-50 mx-auto">
+      <h1 class ="pb-4 pt-2">Contact Info:</h1>
       <p>
       Feel free to reach out for more info!
       <br></br>

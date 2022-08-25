@@ -1,9 +1,9 @@
 import React from 'react';
-// info
+// Say a lil something about you
 export default function Home() {
   return (
-    <div className = "w-50 mx-auto">
-      <h1 className ="pb-4 pt-2">About me</h1>
+    <div class = "w-50 mx-auto">
+      <h1 class ="pb-4 pt-2">About me</h1>
       <article>
             <img class="float" src={"../public/assets/Profile-pic.jpg"} alt="Lawrence himself"/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

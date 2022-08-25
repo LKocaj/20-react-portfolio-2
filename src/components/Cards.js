@@ -8,20 +8,20 @@ const styles = {
 
 export default function Cards(props) {
     return (
-      <div className="row g-4 gap-3">
+      <div class="row g-4 gap-3">
         {props.projects.map(item => (
-        <div className="card ps-0 pe-0" style={styles.cardStyle} key={item.id}>
+        <div class="card ps-0 pe-0" style={styles.cardStyle} key={item.id}>
         <img class="card-img-top" src={item.image} alt="Card"/>
-        <div className="card-body">
+        <div class="card-body">
         
-          <h5 className="card-title">{item.name}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">{item.subtitle}</h6>
-          <p className="card-text">{item.description}</p>
+          <h5 class="card-title">{item.name}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{item.subtitle}</h6>
+          <p class="card-text">{item.description}</p>
           
         </div>
-        <div className="card-footer">
-            <a href={item.deployedLink} className="card-link">Project Link</a>
-            <a href={item.repoLink} className="card-link">Github</a>
+        <div class="card-footer">
+            <a href={item.deployedLink} class="card-link">Project Link</a>
+            <a href={item.repoLink} class="card-link">Source Code</a>
           </div>
         </div>
         ))}
