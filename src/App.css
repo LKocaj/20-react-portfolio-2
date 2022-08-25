@@ -21,29 +21,22 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(255, 255, 255);
+  color: #FCB5AC;
 }
-
+/*
 nav {
- background-color: violet;
-}
-
-/* body {
-  background-image: url("/public/assets/space.png"); 
-  background-color: #FCB5AC; 
-  min-height: 1300px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-}
-
-
-.purp .active a,
-.purp .active a:hover {
-    background-colo: purple;
+ background-color: #FCB5AC;
 }
 */
-
+/*
+body {
+  background-image: url("/public/assets/space.png"); 
+  min-height: 1300px; 
+  background-position: center; 
+  background-repeat: repeat; 
+  background-size: cover; 
+}
+*/
 .App-link {
   color: #61dafb;
 }

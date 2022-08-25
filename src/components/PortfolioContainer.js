@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   pageHeightStyle: {
-    backgroundColor: "#FCB5AC"
+    backgroundImage: "/public/assets/space.png"
   }
 }
 
