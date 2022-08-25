@@ -4,42 +4,39 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul class="nav nav-pills">
+      
       <li class="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('About')}
-          class={currentPage === 'About' ? 'nav-link active' : 'nav-link'}   // depends which page youre on will show active or not
-        >
-          About
-        </a>
+          onClick={() => handlePageChange('About')} // depends which page youre on will show active or not
+          class={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About
+        </a>  
       </li>
+
       <li class="nav-item">
         <a
           href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          class={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} // same here
-        >
-          My Portfolio
+          onClick={() => handlePageChange('Portfolio')}     
+          class={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>My Portfolio
         </a>
       </li>
+
       <li class="nav-item">
         <a
           href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          class={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} // same here
-        >
-          Reach Out
+          onClick={() => handlePageChange('Contact')}     
+          class={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Reach Out
         </a>
       </li>
+
       <li class="nav-item">
         <a
           href="#resume"
-          onClick={() => handlePageChange('Resume')}
-          class={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} // same here
-        >
-          My Resume
-        </a>
+          onClick={() => handlePageChange('Resume')}     
+          class={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>My Resume 
+        </a> 
       </li>
+
     </ul>
   );
 }

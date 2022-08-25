@@ -2,15 +2,17 @@ import React from 'react';
 
 const styles = {
   pageHeightStyle: {
-    backgroundColor: "#f0f8ff"
+    backgroundColor: 0
   }
 }
 
 export default function PortfolioContainer({renderPage}) {
 
   return (
-    <div class="vh-100 containd" style={styles.pageHeightStyle}>
+    <div class="vh-100 bgc" style={styles.pageHeightStyle}>
       {renderPage()}
     </div>
   );
 }
+
+

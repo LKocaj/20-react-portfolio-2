@@ -1,6 +1,14 @@
 import React from 'react';
 import Cards from '../Cards'
 
+export default function Portfolio() {
+  return (
+    <div class = "w-50 mx-auto">
+      <h1 class ="pb-4 pt-2">Here are my projects:</h1>
+<Cards projects={projects} />
+    </div>
+  );
+}
 // my work
 const projects = [
   {
@@ -8,17 +16,17 @@ const projects = [
     name: "Run Buddy",
     description: "",
     subtitle: "",
-    deployedLink: "",
-    repoLink: "",
-    image: "./public/assets/run-buddy.jpg"
+    deployedLink: "https://lkocaj.github.io/01-run-buddy/",
+    repoLink: "https://github.com/LKocaj/01-run-buddy",
+    image: "/public/assets/run-buddy.jpg"
   },
   {
     id: 2,
     name: "Code Refactor",
     description: "",
     subtitle: "",
-    deployedLink: "",
-    repoLink: "",
+    deployedLink: "https://lkocaj.github.io/01-code-refactor/",
+    repoLink: "https://github.com/LKocaj/01-code-refactor",
     image: ""
   },
   {
@@ -27,7 +35,7 @@ const projects = [
     description: "",
     subtitle: "",
     deployedLink: "",
-    repoLink: "",
+    repoLink: "https://github.com/LKocaj/02-professional-Portfolio",
     image: ""
   },
   {
@@ -36,7 +44,7 @@ const projects = [
     description: "",
     subtitle: "",
     deployedLink: "",
-    repoLink: "",
+    repoLink: "https://github.com/LKocaj/03-js-pw-generator",
     image: ""
   },
   {
@@ -45,7 +53,7 @@ const projects = [
     description: "",
     subtitle: "",
     deployedLink: "",
-    repoLink: "",
+    repoLink: "https://github.com/LKocaj/03-robot-gladiators",
     image: ""
   },
   {
@@ -54,7 +62,7 @@ const projects = [
     description: "",
     subtitle: "",
     deployedLink: "",
-    repoLink: "",
+    repoLink: "https://github.com/LKocaj/04-web-api-quiz",
     image: ""
   },
   {
@@ -63,7 +71,7 @@ const projects = [
     description: "",
     subtitle: "",
     deployedLink: "",
-    repoLink: "",
+    repoLink: "https://github.com/LKocaj/04-taskinator",
     image: ""
   },
   {
@@ -292,12 +300,3 @@ const projects = [
     image: ""
   },
 ];
-
-export default function Portfolio() {
-  return (
-    <div className = "w-50 mx-auto">
-      <h1 className ="pb-4 pt-2">Portfolio</h1>
-<Cards projects={projects} />
-    </div>
-  );
-}

@@ -28,6 +28,16 @@
  background-color: violet;
 }
 
+/*
+.bgc
+  background-image: url(/public/assets/space.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+} */
+/* .bgc {
+ 
+} */
+
 .App-link {
   color: #61dafb;
 }
