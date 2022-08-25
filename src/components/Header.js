@@ -4,7 +4,7 @@ import NavTabs from "./NavTabs"
 
 function Header({ currentPage, handlePageChange }) {
   return (
-<nav className="navbar py-4 navbar-dark bg-dark d-flex justify-content-around">
+<nav className="navbar navbar-light bg-light d-flex justify-content-around navi">
   <h1>Lawrence Kocaj</h1>
     <NavTabs handlePageChange={handlePageChange} currentPage={currentPage}/>
 </nav>
