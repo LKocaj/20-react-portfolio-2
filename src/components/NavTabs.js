@@ -3,7 +3,7 @@ import React from 'react';
 //reassign variable when necessary (switching pages)
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul class="nav nav-pills">
+    <ul class="nav nav-pills purp">
       
       <li class="nav-item">
         <a

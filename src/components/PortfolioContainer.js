@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   pageHeightStyle: {
-    backgroundColor: 0
+    backgroundColor: "#FCB5AC"
   }
 }
 

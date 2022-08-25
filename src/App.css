@@ -24,19 +24,25 @@
   color: rgb(255, 255, 255);
 }
 
-.navi {
+nav {
  background-color: violet;
 }
 
-/*
-.bgc
-  background-image: url(/public/assets/space.gif);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-} */
-/* .bgc {
- 
-} */
+/* body {
+  background-image: url("/public/assets/space.png"); 
+  background-color: #FCB5AC; 
+  min-height: 1300px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+
+.purp .active a,
+.purp .active a:hover {
+    background-colo: purple;
+}
+*/
 
 .App-link {
   color: #61dafb;

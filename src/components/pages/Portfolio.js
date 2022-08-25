@@ -4,7 +4,7 @@ import Cards from '../Cards'
 export default function Portfolio() {
   return (
     <div class = "w-50 mx-auto">
-      <h1 class ="pb-4 pt-2">Here are my projects:</h1>
+      <h1 class ="pb-4 pt-2">My projects:</h1>
 <Cards projects={projects} />
     </div>
   );
@@ -18,7 +18,7 @@ const projects = [
     subtitle: "",
     deployedLink: "https://lkocaj.github.io/01-run-buddy/",
     repoLink: "https://github.com/LKocaj/01-run-buddy",
-    image: "/public/assets/run-buddy.jpg"
+    image: "../public/assets/run-buddy.jpg"
   },
   {
     id: 2,
