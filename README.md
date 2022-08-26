@@ -141,6 +141,9 @@ Youtube: https://www.youtube.com/channel/UCT9VNw7nEAY0jqPlHM6zlSw
 github: https://github.com/LKocaj
 <br>
 <br>
+This repo: https://github.com/LKocaj/20-react-portfolio-2
+<br>
+<br>
 Project Link: https://lkocaj.github.io/20-react-portfolio-2/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
