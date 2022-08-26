@@ -2,14 +2,14 @@ import React from 'react';
 
 const styles = {
   pageHeightStyle: {
-    backgroundImage: "/public/assets/space.png"
+    backgroundImage: ""
   }
 }
 
 export default function PortfolioContainer({renderPage}) {
 
   return (
-    <div class="vh-100 bgc" style={styles.pageHeightStyle}>
+    <div class="vh-100" style={styles.pageHeightStyle}>
       {renderPage()}
     </div>
   );

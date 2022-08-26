@@ -8,9 +8,9 @@ const styles = {
 
 export default function Cards(props) {
     return (
-      <div class="row g-4 gap-5">
+      <div class="row g-5 gap-5">
         {props.projects.map(item => (
-        <div class="card ps-5 pe-5" style={styles.cardStyle} key={item.id}>
+        <div class="card" style={styles.cardStyle} key={item.id}>
         <img class="card-img-top" src={item.image} alt="img"/>
         <div class="card-body">
         
@@ -19,8 +19,8 @@ export default function Cards(props) {
           
         </div>
         <div class="card-footer">
-            <a href={item.deployedLink} class="card-link">Project Link</a>
-            <a href={item.repoLink} class="card-link">Source Code</a>
+            <a href={item.deployedLink} class="card-link">Source Code</a>
+            <a href={item.repoLink} class="card-link">Website</a>
           </div>
         </div>
         ))}

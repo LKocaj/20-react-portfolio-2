@@ -4,7 +4,7 @@ import Cards from '../Cards'
 export default function Portfolio() {
   return (
     <div class = "w-50 mx-auto">
-      <h1 class ="pb-4 pt-2">My projects:</h1>
+      <h1 class ="pb-5 pt-0">My projects:</h1>
 <Cards projects={projects} />
     </div>
   );
